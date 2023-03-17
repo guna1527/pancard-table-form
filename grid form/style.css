@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-color: #333;
+    font family:"'Roboto', sans-serif;";
+    color:white;
+
+}
+#{
+    margin:0;
+    padding:0;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300px;
+    margin:10px;
+}
+h2 span{font-size: 15px;
+}
+p{font-size: 15px;}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.container>div{
+    cursor: pointer;
+    height: 210px;
+    background-size: cover;
+background-position: fixed;
+}
+.bg-1{
+    background-image: url(" https://images.pexels.com/photos/3623207/pexels-photo-3623207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.bg-2{
+    background-image: url( "https://www.plitvicelakesfromsplit.com/wp-content/uploads/2019/10/IMG_5369.jpeg");
+
+}
+.container >div:hover{opacity:0.8;
+transform: scale(0.7);}
+
+
+
